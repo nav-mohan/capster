@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:emergency:cap:1.2 http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd"><identifier>3FEF99FD69304030A752771ACE14D837</identifier><sender>NAADS-Heartbeat</sender><sent>2023-05-06T03:09:27-00:00</sent><status>System</status><msgType>Alert</msgType><source>NAADS-1</source><scope>Public</scope><code>profile:CAP-CP:0.4</code><references>cap-pac@canada.ca,urn:oid:2.49.0.1.124.1015723302.2023,2023-05-06T00:24:20-00:00 emalay@AlbertaEmergencyManagementAgency,87540A98-C81D-47BA-A027-21B49C451B65,2023-05-05T18:27:07-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3295141498.2023,2023-05-06T00:46:14-00:00 emalay@AlbertaEmergencyManagementAgency,798588BF-0426-4A1D-8CAF-F8370AD3074D,2023-05-05T19:10:14-06:00 emalay@AlbertaEmergencyManagementAgency,ADA98D5D-92A5-4440-BABC-6E16A81076EE,2023-05-05T19:42:37-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2598628385.2023,2023-05-06T01:45:21-00:00 StrathconaCounty,896E8C15-A48B-49CD-840F-A5ABF6A2169E,2023-05-05T19:52:55-06:00 emalay@AlbertaEmergencyManagementAgency,F461FD9A-4618-4399-84BE-CDB4E78C086D,2023-05-05T20:10:25-06:00 StrathconaCounty,AB4DDA26-56CD-4DAD-AA2E-56F7E18CD542,2023-05-05T20:17:57-06:00 LeducCounty,4F2FD18A-F03B-4DB1-AB52-BF0A439F35E9,2023-05-05T20:59:58-06:00</references></alert>8CD542,2023-05-05T20:17:57-06:00 LeducCounty,4F2FD18A-F03B-4DB1-AB52-BF0A439F35E9,2023-05-05T20:59:58-0<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.124.3770906828.2023</identifier>
+    <sender>cap-pac@canada.ca</sender>
+    <sent>2023-05-06T03:09:43-00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>Env. Can. - Can. Met. Ctr. – Montréal</source>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <code>layer:EC-MSC-SMC:1.0</code>
+    <code>layer:EC-MSC-SMC:1.1</code>
+    <code>layer:SOREM:2.0</code>
+    <note>Service Notice - February 2023: The Environment and Climate Change Canada (ECCC) CAP Service undergoes changes from time to time as the business of alerting evolves. For 2023, changes will include... 1) modifications, or even removal, of the Wireless Public Alerting Message (WPAM) layer due to the successful pilot of the UpdateX feature recently deployed in the Canadian Cell Broadcasting Environment, and 2) other minor improvements and corrections. For more information on these changes, you are invited to subscribe to the following mailing list: http://lists.cmc.ec.gc.ca/mailman/listinfo/dd_info | Notification de service - février 2023: Le service du PAC d’Environnement et Changement climatique Canada (ECCC) subit périodiquement des changements et ajouts à mesure que le système d’alerte évolue. Pour 2023, ces changements incluent... 1) des modifications, voire la suppression, de la couche du Service d’alertes sans fil au public (WPAM) en raison du succès du projet pilote de la fonctionnalité UpdateX récemment déployée dans l’environnement de diffusion sans fil canadien, et 2) d’autres améliorations et corrections mineures. Pour plus d’informations sur ces changements, vous êtes invités à vous inscrire à la liste de diffusion suivante: http://lists.cmc.ec.gc.ca/mailman/listinfo/dd_info</note>
+    <references>cap-pac@canada.ca,urn:oid:2.49.0.1.124.4001678676.2023,2023-05-05T21:53:25-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2598628385.2023,2023-05-06T01:45:21-00:00</references>
+    <info>
+        <language>en-CA</language>
+        <category>Met</category>
+        <event>thunderstorm</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <audience>general public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVA</value>
+        </eventCode>
+        <effective>2023-05-06T03:09:43-00:00</effective>
+        <expires>2023-05-06T19:09:43-00:00</expires>
+        <senderName>Environment Canada</senderName>
+        <headline>severe thunderstorm watch in effect</headline>
+        <description>
+Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts and heavy rain.
+
+
+###
+
+Hail is also possible. Heavy downpours can cause flash floods and water pooling on roads.
+
+Severe thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.
+
+Please continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@ec.gc.ca or tweet reports using #BCStorm.
+</description>
+        <instruction>
+Lightning kills and injures Canadians every year. Remember, when thunder roars, go indoors!
+</instruction>
+        <web>http://weather.gc.ca/warnings/index_e.html?prov=bc</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>watch</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20230506030943212/WW_13_73_CWVR/STV/214224126592060905202305050502_WW_13_73_CWVR/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:3542 M:20212 C:22324</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>severe thunderstorm watch</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Interior and Northern British Columbia</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WW_13_73_CWVR</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value>087120,087420</value>
+        </parameter>
+        <area>
+            <areaDesc>Bulkley Valley</areaDesc>
+            <polygon>54.9367,-125.2762 54.7308,-125.6889 54.538,-127.6878 55.2999,-128.1367 56.0247,-128.4667 56.5021,-128.7494 57.0307,-128.9927 57.0545,-127.7835 56.9999,-126.6699 56.067,-125.3473 55.346,-124.4416 54.9367,-125.2762</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087110</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949024</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949028</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949039</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949810</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949811</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949812</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949813</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949814</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949815</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949817</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949818</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949819</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949820</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951032</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951038</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951043</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951051</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951053</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951811</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951828</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951829</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951830</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951845</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951846</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951848</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5957022</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Lakes District</areaDesc>
+            <polygon>54.538,-127.6878 54.7308,-125.6889 54.9367,-125.2762 54.2336,-125.0555 52.9994,-124.3065 52.8986,-125.363 52.83,-126.5 53.014,-126.648 53.2011,-126.7741 53.6587,-127.1346 54.1959,-127.509 54.3906,-127.6267 54.538,-127.6878</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087120</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941027</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941039</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941833</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941860</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941861</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941862</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941863</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941865</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951009</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951017</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951028</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951031</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951034</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951051</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951053</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951815</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951818</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951819</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951820</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951821</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951822</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951823</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951824</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951825</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951826</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951827</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951833</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951844</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951847</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Stuart - Nechako</areaDesc>
+            <polygon>54.615,-123.4872 53.2026,-123.3207 53.0927,-123.8108 53,-124.3 52.9994,-124.3065 54.2336,-125.0555 54.9367,-125.2762 55.346,-124.4416 55.2006,-124.1479 55.067,-123.9108 54.615,-123.4872</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087410</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941027</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941852</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941864</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941866</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951007</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951009</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951013</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951017</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951019</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951801</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951802</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951803</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951804</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951805</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951806</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951807</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951809</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951810</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951813</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951814</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951840</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951849</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953038</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953050</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Prince George</areaDesc>
+            <polygon>53.2026,-123.3207 54.615,-123.4872 54.6596,-123.3477 54.7,-123.1999 54.8582,-122.8496 54.9999,-122.4999 54.3293,-121.9409 53.5999,-121.4 53.3864,-122.349 53.2026,-123.3207</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087420</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941021</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953023</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953038</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953042</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953044</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953046</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953048</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953801</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>fr-CA</language>
+        <category>Met</category>
+        <event>orages</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <audience>grand public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>thunderstorm</value>
+        </eventCode>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>SVA</value>
+        </eventCode>
+        <effective>2023-05-06T03:09:43-00:00</effective>
+        <expires>2023-05-06T19:09:43-00:00</expires>
+        <senderName>Environnement Canada</senderName>
+        <headline>veille d'orages violents en vigueur</headline>
+        <description>
+Les conditions sont propices à la formation d'orages violents pouvant produire des rafales fortes et de la pluie forte.
+
+###
+
+De la grêle est également possible. Les pluies torrentielles peuvent causer des crues soudaines et une accumulation d'eau sur les routes.
+
+Une veille d'orages violents est émise lorsque les conditions atmosphériques sont propices à la formation d'orages qui pourraient s'accompagner d'au moins un des éléments suivants : grosse grêle, vents destructeurs ou pluies torrentielles.
+
+Veuillez continuer à surveiller les alertes et les prévisions émises par Environnement Canada. Pour signaler du temps violent, envoyez un courriel à meteoBC@ec.gc.ca ou publiez un gazouillis en utilisant le mot-clic #BCMeteo.
+</description>
+        <instruction>
+La foudre tue et blesse des Canadiens chaque année. N'oubliez pas : quand le tonnerre gronde, rentrez vite à l'intérieur!
+</instruction>
+        <web>http://meteo.gc.ca/warnings/index_f.html?prov=bc</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>watch</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20230506030943212/WW_13_73_CWVR/STV/214224126592060905202305050502_WW_13_73_CWVR/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:3542 M:20212 C:22324</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>veille d'orages violents</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>intérieur et le nord de la Colombie-Britannique</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WW_13_73_CWVR</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value>087120,087420</value>
+        </parameter>
+        <area>
+            <areaDesc>vallée de Bulkley</areaDesc>
+            <polygon>54.9367,-125.2762 54.7308,-125.6889 54.538,-127.6878 55.2999,-128.1367 56.0247,-128.4667 56.5021,-128.7494 57.0307,-128.9927 57.0545,-127.7835 56.9999,-126.6699 56.067,-125.3473 55.346,-124.4416 54.9367,-125.2762</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087110</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949024</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949028</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949039</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949810</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949811</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949812</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949813</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949814</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949815</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949817</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949818</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949819</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5949820</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951032</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951038</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951043</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951051</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951053</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951811</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951828</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951829</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951830</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951845</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951846</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951848</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5955040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5957022</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>district des lacs</areaDesc>
+            <polygon>54.538,-127.6878 54.7308,-125.6889 54.9367,-125.2762 54.2336,-125.0555 52.9994,-124.3065 52.8986,-125.363 52.83,-126.5 53.014,-126.648 53.2011,-126.7741 53.6587,-127.1346 54.1959,-127.509 54.3906,-127.6267 54.538,-127.6878</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087120</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941027</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941039</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941833</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941860</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941861</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941862</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941863</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941865</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951009</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951017</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951022</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951028</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951031</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951034</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951051</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951053</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951815</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951818</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951819</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951820</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951821</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951822</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951823</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951824</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951825</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951826</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951827</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951833</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951844</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951847</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Stuart - Nechako</areaDesc>
+            <polygon>54.615,-123.4872 53.2026,-123.3207 53.0927,-123.8108 53,-124.3 52.9994,-124.3065 54.2336,-125.0555 54.9367,-125.2762 55.346,-124.4416 55.2006,-124.1479 55.067,-123.9108 54.615,-123.4872</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087410</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941027</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941852</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941864</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941866</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951007</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951009</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951013</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951017</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951019</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951801</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951802</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951803</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951804</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951805</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951806</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951807</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951809</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951810</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951813</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951814</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951840</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5951849</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953038</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953050</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Prince George</areaDesc>
+            <polygon>53.2026,-123.3207 54.615,-123.4872 54.6596,-123.3477 54.7,-123.1999 54.8582,-122.8496 54.9999,-122.4999 54.3293,-121.9409 53.5999,-121.4 53.3864,-122.349 53.2026,-123.3207</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>087420</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5941021</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953023</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953038</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953042</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953044</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953046</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953048</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953050</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>5953801</value>
+            </geocode>
+        </area>
+    </info>
+<Signature Id="NAADS Signature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>e1dUmlDi6cn1eJanLzlwThgR6J1P7jE8eJL3ptDdU88=</DigestValue></Reference></SignedInfo><SignatureValue>q+uOv9cwzTcPL1Era4VgCJtifx/ij4mnW+KHeprrsJ9kZFGQr0C8q7AAfzYWkolZmqMZUP1tN93T4p8LrTpWKdRxH6sncBIYgUO5um/zCsG9yD4Oy2rv2aYg+1odmHSNACUompgme1afTIx7K9n6Z7EGGipOwUQZaiSLMOFVOPQpLLwvuU0PwLgcZqPkbIqwPUBK3BiNtqXN3GCoT+Rc6Vdj1zrpNwjPVVKuI4LaFzDk33Dy4D81in6BQPSCe4G0CD2jwB9mhfnIl5W8f+fjNRCmlxH7QhIJx6M5fs6SIBI63wrbhWQJZlt8auwQqPpQ56XqjtrO4n5CHPtDw4eyNg==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo><Object xmlns=""><SignatureProperties><SignatureProperty Id="NAADS-DSS1" Target="https://dss1.naad-adna.pelmorex.com"><xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" /></SignatureProperty><SignatureProperty Id="NAADS-DSS2" Target="https://dss2.naad-adna.pelmorex.com"><xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" /></SignatureProperty></SignatureProperties></Object></Signature><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Environment Canada">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+<DigestValue>e1dUmlDi6cn1eJanLzlwThgR6J1P7jE8eJL3ptDdU88=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>hCNMgA4giMtD71ykcZiN1onYDfB8BCiHFT8H2w5pTDY0sw/wvaFKv6ciTObIqyDw
+vaJdhBL0OC3Qs43QhACrMCqdy8DZn2IrcypzLPhxIE3YCFu0ML3Uzx6IRGn5bRGu
+6/IW/g3U2GMdwz+UG/n6la7QsC3moQsFvx5qDJTRpfNRthVAQazxbxaK8gnkwpsr
+HmmR8SB9DicinX3pka8kcXy31g89VLVu9diNkcGmPYFHytXlVT7An11KKoZPWggb
+d6Y0txXeSPblO24ApvpSopW99YaXlURWtPRqFeRXjxdiq88G/dxKYoyCJbMo5p/o
+OPDvITKURU7UKJGoYpcXag==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIHQDCCBiigAwIBAgIQVM83tR+H9HQcCcfTpntZ0jANBgkqhkiG9w0BAQsFADCB
+ujELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsT
+H1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAy
+MDEyIEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEuMCwG
+A1UEAxMlRW50cnVzdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEwxSzAeFw0y
+MTA0MDYxNDI4NTNaFw0yMjA1MDUxNDI4NTJaMGgxCzAJBgNVBAYTAkNBMQ8wDQYD
+VQQIEwZRdWViZWMxETAPBgNVBAcTCEdhdGluZWF1MRswGQYDVQQKExJFbnZpcm9u
+bWVudCBDYW5hZGExGDAWBgNVBAMMDyoud2VhdGhlci5nYy5jYTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAKN11t27vPi+ux94AEGuComDkX2rZYWwyE8s
+YMdJWg4TQxTljp4R8//VI9vO0c/1hH9AnkGCafH6k/9pVxkmJUZ32isJrTPS6SJK
+fejnFqVVjMEFpOkXcSy2LJ0I/FeaMJ4Ivs6dRGDSmnYQYFYHMvWGTEMBWCi2Q2G8
+4GSLKmKkJ6RC04nfyPEHuuyoS0APXnRDb4DZjVOxXb0zrpq1FvegWzCIpZiq3kCE
+JhXL3YSplB7yk1SWqjJROvj5AogyoLFiNW+S9Q1WrQ/efjxBYPmzj9VoWtcgezJB
+B4YJLP75XneF69Hxy+6OhitniSPMEtE1R0zB4G1axTNiWviH60sCAwEAAaOCA5Ew
+ggONMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFC4sBO19G7Jk7WQDbJicDuYRIyUY
+MB8GA1UdIwQYMBaAFIKicHTdvFM/z3vU981/p2DGCky/MGgGCCsGAQUFBwEBBFww
+WjAjBggrBgEFBQcwAYYXaHR0cDovL29jc3AuZW50cnVzdC5uZXQwMwYIKwYBBQUH
+MAKGJ2h0dHA6Ly9haWEuZW50cnVzdC5uZXQvbDFrLWNoYWluMjU2LmNlcjAzBgNV
+HR8ELDAqMCigJqAkhiJodHRwOi8vY3JsLmVudHJ1c3QubmV0L2xldmVsMWsuY3Js
+MIGdBgNVHREEgZUwgZKCDyoud2VhdGhlci5nYy5jYYINd2VhdGhlci5nYy5jYYIL
+bWV0ZW8uZ2MuY2GCDSoubWV0ZW8uZ2MuY2GCFSouYWxwaGEud2VhdGhlci5nYy5j
+YYITKi5hbHBoYS5tZXRlby5nYy5jYYIUKi5iZXRhLndlYXRoZXIuZ2MuY2GCEiou
+YmV0YS5tZXRlby5nYy5jYTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYB
+BQUHAwEGCCsGAQUFBwMCMEwGA1UdIARFMEMwNwYKYIZIAYb6bAoBBTApMCcGCCsG
+AQUFBwIBFhtodHRwczovL3d3dy5lbnRydXN0Lm5ldC9ycGEwCAYGZ4EMAQICMIIB
+fwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAl
+CBcvo6odBxPTDAAAAXinlhQbAAAEAwBIMEYCIQCjOHLzIFyW41zO3lT2ZShXTc8M
+hMigKHnFLVjQJnqRkgIhALIWlaEWCK6XITu3RUxkKlXtR56NDU3L7/iVG62O+Tdj
+AHYAUaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSLBeUAAAF4p5YUFwAABAMA
+RzBFAiEAvm6gY+CUKh7AaiqwZ5TUcN/GtcMA2aHOM+FsXRJWJHsCIHjzurWrQ0aK
+IrMJsRdzMxUGavZ0IAv21eeqbrVoB+0hAHYARqVV63X6kSAwtaKJafTzfREsQXS+
+/Um4havy/HD+bUcAAAF4p5YUdgAABAMARzBFAiBbDo4h+iE+c+IlbPLFHEhyXWe9
+7C1O7KrFf76JQ6pcRgIhANVhTgXzbVEOM9MHz9Hp9NwmHhhuQUOE7zNrVDlrs5rG
+MA0GCSqGSIb3DQEBCwUAA4IBAQBPGB3a+dTaJ+raWqJKoMauRMr8WaskBj3ra1nH
+/VFeSvobDurUW59LZwY7Q8MAFDGGqr07yGZTBcb58EBJVFT55UHTRWrMJ6pfBApJ
+oYLi9ivyS/Tc4aUU/TZo8tTRUgkuEyw0gK029JAqqUUwKL0YwcRTlop5EpsittNV
+cQS83d+l0jhp7lRSIN8P6UlrteRP5l/87SHO4FO5j86DvVaRbjjxRHTVJ1ot0HiYqlg44k8IzfgTn9CzImGRqSc4C0CBK7VqXF2dFca9Q41+5FPvdt/reNViL3v+lPLMAojtY6LH2dFDcUqfz/f44MO0PKvlApB6GyCG+EfBTW02TtJx</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></alert>vdt/reNViL3v+lPLMAojtY6LH2dFDcUqfz/f44MO0PKvlAp<?xml version="1.0" encoding="UTF-8"?><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:emergency:cap:1.2 http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd"><identifier>15D7FF81268C4B2294FFD7FFC14FCDEB</identifier><sender>NAADS-Heartbeat</sender><sent>2023-05-06T03:10:27-00:00</sent><status>System</status><msgType>Alert</msgType><source>NAADS-1</source><scope>Public</scope><code>profile:CAP-CP:0.4</code><references>emalay@AlbertaEmergencyManagementAgency,87540A98-C81D-47BA-A027-21B49C451B65,2023-05-05T18:27:07-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3295141498.2023,2023-05-06T00:46:14-00:00 emalay@AlbertaEmergencyManagementAgency,798588BF-0426-4A1D-8CAF-F8370AD3074D,2023-05-05T19:10:14-06:00 emalay@AlbertaEmergencyManagementAgency,ADA98D5D-92A5-4440-BABC-6E16A81076EE,2023-05-05T19:42:37-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2598628385.2023,2023-05-06T01:45:21-00:00 StrathconaCounty,896E8C15-A48B-49CD-840F-A5ABF6A2169E,2023-05-05T19:52:55-06:00 emalay@AlbertaEmergencyManagementAgency,F461FD9A-4618-4399-84BE-CDB4E78C086D,2023-05-05T20:10:25-06:00 StrathconaCounty,AB4DDA26-56CD-4DAD-AA2E-56F7E18CD542,2023-05-05T20:17:57-06:00 LeducCounty,4F2FD18A-F03B-4DB1-AB52-BF0A439F35E9,2023-05-05T20:59:58-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3770906828.2023,2023-05-06T03:09:43-00:00</references></alert>,2023-05-05T20:59:58-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3770906828.2023,2023-05-06T03:09:43-0<?xml version="1.0" encoding="UTF-8"?><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:emergency:cap:1.2 http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd"><identifier>27D0393315374078A18C9E495B5315F4</identifier><sender>NAADS-Heartbeat</sender><sent>2023-05-06T03:11:27-00:00</sent><status>System</status><msgType>Alert</msgType><source>NAADS-1</source><scope>Public</scope><code>profile:CAP-CP:0.4</code><references>emalay@AlbertaEmergencyManagementAgency,87540A98-C81D-47BA-A027-21B49C451B65,2023-05-05T18:27:07-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3295141498.2023,2023-05-06T00:46:14-00:00 emalay@AlbertaEmergencyManagementAgency,798588BF-0426-4A1D-8CAF-F8370AD3074D,2023-05-05T19:10:14-06:00 emalay@AlbertaEmergencyManagementAgency,ADA98D5D-92A5-4440-BABC-6E16A81076EE,2023-05-05T19:42:37-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2598628385.2023,2023-05-06T01:45:21-00:00 StrathconaCounty,896E8C15-A48B-49CD-840F-A5ABF6A2169E,2023-05-05T19:52:55-06:00 emalay@AlbertaEmergencyManagementAgency,F461FD9A-4618-4399-84BE-CDB4E78C086D,2023-05-05T20:10:25-06:00 StrathconaCounty,AB4DDA26-56CD-4DAD-AA2E-56F7E18CD542,2023-05-05T20:17:57-06:00 LeducCounty,4F2FD18A-F03B-4DB1-AB52-BF0A439F35E9,2023-05-05T20:59:58-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3770906828.2023,2023-05-06T03:09:43-00:00</references></alert>,2023-05-05T20:59:58-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3770906828.2023,2023-05-06T03:09:43-0

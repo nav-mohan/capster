@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>DB57E99B-4F5C-4533-B010-46C7D8E6F15E</identifier>
+    <sender>AlbertaEmergencyManagementAgency</sender>
+    <sent>2023-05-12T17:17:47-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <references>AlbertaEmergencyManagementAgency,58165F03-E229-405E-A8FB-2CE831701868,2023-05-12T17:02:34-06:00</references>
+    <info>
+        <language>en-CA</language>
+        <category>Fire</category>
+        <event>Wildfire</event>
+        <responseType>Prepare</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Extreme</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>wildFire</value>
+        </eventCode>
+        <effective>2023-05-12T17:17:47-06:00</effective>
+        <expires>2023-05-13T17:15:23-06:00</expires>
+        <senderName>Alberta Emergency Management Agency</senderName>
+        <headline>This is an Alberta Emergency Alert. MD of Greenview has issued a Wildfire Alert.</headline>
+        <description>A wildfire is burning in the area south of Township Road 690, between Highway 40 and the BC Border. Everyone in this area must evacuate now. Everyone north of Township Road 690 to the Wapiti River should be prepared to evacuate on short notice. </description>
+        <instruction>Pack clothes, food, water, important documents and medication for 3 days. Bring your pets. Evacuate to Grande Prairie. A reception center has been established at the Bonnetts Energy Centre located at 10017 99 Ave in Grande Prairie. </instruction>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>Yes</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Text</valueName>
+            <value>This is an Alberta Emergency Alert. MD of Greenview has issued a Wildfire Alert. This alert is in effect for the area south of Grovedale. A wildfire is burning in the area south of Township Road 690, between Highway 40 and the BC Border. Everyone in this area must evacuate now. Everyone north of Township Road 690 to the Wapiti River should be prepared to evacuate on short notice.  Pack clothes, food, water, important documents and medication for 3 days. Bring your pets. Evacuate to Grande Prairie. A reception center has been established at the Bonnetts Energy Centre located at 10017 99 Ave in Grande Prairie.</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>Yes</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessText</valueName>
+            <value>Alberta Emergency Alert - MD of Greenview - Wildfire Alert. This alert is in effect for the area south of Grovedale. A wildfire is burning in the area south of Township Road 690, between Highway 40 and the BC Border. Everyone in this area must evacuate now. Everyone north of Township Road 690 to the Wapiti River should be prepared to evacuate on short notice.  Pack clothes, food, water, important documents and medication for 3 days. Bring your pets. Evacuate to Grande Prairie. A reception center has been established at the Bonnetts Energy Centre located at 10017 99 Ave in Grande Prairie.</value>
+        </parameter>
+        <parameter>
+            <valueName>NAADS:InternalUse:1</valueName>
+            <value>Polygon</value>
+        </parameter>
+        <resource>
+            <resourceDesc>http://www.alberta.ca/BePrepared</resourceDesc>
+            <mimeType>application/x-url</mimeType>
+            <uri>http://www.alberta.ca/BePrepared</uri>
+        </resource>
+        <resource>
+            <resourceDesc>http://www.alberta.ca/emergencyalert</resourceDesc>
+            <mimeType>application/x-url</mimeType>
+            <uri>http://www.alberta.ca/emergencyalert</uri>
+        </resource>
+        <resource>
+            <resourceDesc>https://mdgreenview.ab.ca/</resourceDesc>
+            <mimeType>application/x-url</mimeType>
+            <uri>https://mdgreenview.ab.ca/</uri>
+        </resource>
+        <resource>
+            <resourceDesc>Broadcast Audio</resourceDesc>
+            <mimeType>audio/mpeg</mimeType>
+            <uri>
+                https://s3.amazonaws.com/naadsttsfs-prod/DB57E99B-4F5C-4533-B010-46C7D8E6F15E-en-CA.mp3?1683933377452</uri>
+            <digest>48333390CC148BF47A6326E148DE825C1CAEC29E</digest>
+        </resource>
+        <area>
+            <areaDesc>This alert is in effect for the area south of Grovedale.</areaDesc>
+            <polygon>54.937851,-118.772577 54.937653,-118.948444 54.936865,-119.045519 54.938985,-119.434932 54.918999,-119.531556 54.881626,-119.573249 54.863193,-119.645153 54.849495,-119.725298 54.833154,-119.762967 54.819180,-119.815742 54.777755,-119.834775 54.722806,-119.914232 54.721753,-119.984764 54.590425,-119.983305 54.597337,-119.423603 54.594154,-119.056247 54.603701,-118.691639 54.660139,-118.682026 54.787035,-118.680652 54.812367,-118.697132 54.853497,-118.693012 54.889847,-118.774036 54.937851,-118.772577</polygon>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4818015</value>
+            </geocode>
+        </area>
+    </info>
+    <Signature Id="NAADS Signature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <DigestValue>RwWB8JkRcAHBsd9xiHogwa5uaDHBOKkkvXfZzZDnGZU=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            Pr/bzlWhfZ+7ui0WjgoBVFwvV0uyTjQ8JqWwj2tkAguQqwMnS2i9+sjh7N38qRU+/rez3vdLAWc1XZzNWSGvXlm4lf+7Av/Y1DpGj/7buHMSqfeYeEzBnE1XtMj+DHc9W1VZELp2r0bPZvv540fqpGOsFEiaQdICuoV/wjzqgH/VgqIxc2VqIKBSySLBBbkNaRnfNwYd/T7ujwAoPFePvLkH+N2sMzSdQmD/AH5qF7a7otxAX1WFFyfQLAVC0noHKDxFNH0HKlZe+Mjfw9gqlQBK8ZFcTXNEuJcISkb8sERic4swVsYay/d+HPF4l8vtv0TwaE+/o7JwzSetOMZNQg==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    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</X509Certificate>
+            </X509Data>
+        </KeyInfo>
+        <Object xmlns="">
+            <SignatureProperties>
+                <SignatureProperty Id="NAADS-DSS1" Target="https://dss1.naad-adna.pelmorex.com">
+                    <xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" />
+                </SignatureProperty>
+                <SignatureProperty Id="NAADS-DSS2" Target="https://dss2.naad-adna.pelmorex.com">
+                    <xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" />
+                </SignatureProperty>
+            </SignatureProperties>
+        </Object>
+    </Signature>
+</alert>

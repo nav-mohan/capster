@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>772531C3-6AB5-6EA4-7FF8-ED1B65B84EEB</identifier>
+    <sender>SaskAlert@SKSaskatchewanProvincialParks</sender>
+    <sent>2023-05-12T14:51:41-06:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <info>
+        <language>en-CA</language>
+        <category>Health</category>
+        <event>Drinking Water</event>
+        <responseType>Monitor</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Moderate</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>drinkingWate</value>
+        </eventCode>
+        <expires>2023-05-18T11:00:00-06:00</expires>
+        <senderName>SK Saskatchewan Provincial Parks</senderName>
+        <headline>Precautionary Drinking Water Advisory for Danielson Provincial Park</headline>
+        <description>A Precautionary Drinking Water Advisory is in effect for Danielson Provincial Park.  This advisory is for any individuals accessing the water system within Danielson Park.  This advisory is in place while regular spring startup procedures are completed on the system, and water sample results deem the water safe to drink.</description>
+        <instruction>Boil water for at least one minute.  This includes water for drinking purposes, washing of fruits and vegetables and brushing teeth.  Do not drink from any water taps throughout the park, do not fill your RV holding tanks from this system. Use an alternative water source known to be safe. Listen for updates on the situation.</instruction>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <area>
+            <areaDesc>Danielson Provincial Park, Including Elmview Campground, Bayside Campground, Shady Lane Campground, Danielson Park Visitor Centre, Park trailer fill and dump stations.</areaDesc>
+            <polygon>51.0968,-106.5373 51.0969,-106.4227 51.2713,-106.4210 51.2713,-106.4256 51.4464,-106.4250 51.4465,-106.7069 51.3588,-106.7072 51.3592,-106.9825 51.3359,-106.9712 51.3223,-106.9617 51.3202,-106.9568 51.3173,-106.9376 51.3078,-106.9118 51.3035,-106.9036 51.2923,-106.8909 51.2868,-106.8784 51.2765,-106.8647 51.2566,-106.8475 51.2371,-106.8406 51.1884,-106.8107 51.1677,-106.7890 51.1450,-106.7556 51.1329,-106.7298 51.1121,-106.6433 51.1060,-106.6325 51.1012,-106.6294 51.0971,-106.6296 51.0968,-106.5373</polygon>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4711018</value>
+            </geocode>
+        </area>
+    </info>
+    <Signature Id="NAADS Signature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <DigestValue>iJmtViRseBqx2t4AP789gsuHsLuT7dyHmq3pJxs8dC4=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            HBGtDDwZ1iUVl4brpEcDxw09V1b8yZj0Bbp5VhP3Vao+Awz3q6MNaOVXaK/gtpWLtvNyxibSzz3JvTw5WiiG1cWUV/UQWGT+AaJnYhM0qzKWxfPDntD4F0OiCZjK6CxXr/CgQ7rR7EUd7X/4A7FnVgCj7o9h2EFvXGh0YzksYIRDbhvfVYWYt+ceiQiQnUWeKWwYreA5mK7HSIJgZzJPqc7NQlUSTxqzmtHEvwUL3ug2sf9JN0mvZ2YBQ8HcM34k82cuMw7LVRhlflDb8Ig0lV7sPKcnWHD5y6UgpQXckc7OjEXVf9IGJbyUocwdQDbGf0MK4j9Dv7ujibXgeRECTg==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    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</X509Certificate>
+            </X509Data>
+        </KeyInfo>
+        <Object xmlns="">
+            <SignatureProperties>
+                <SignatureProperty Id="NAADS-DSS1" Target="https://dss1.naad-adna.pelmorex.com">
+                    <xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" />
+                </SignatureProperty>
+                <SignatureProperty Id="NAADS-DSS2" Target="https://dss2.naad-adna.pelmorex.com">
+                    <xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" />
+                </SignatureProperty>
+            </SignatureProperties>
+        </Object>
+    </Signature>
+</alert>

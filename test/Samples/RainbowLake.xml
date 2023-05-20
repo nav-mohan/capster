@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>C86D662E-9AC2-44AD-8B1D-EE4DB2997F7A</identifier>
+    <sender>AlbertaEmergencyManagementAgency</sender>
+    <sent>2023-05-12T14:55:15-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <references>
+        emalay@AlbertaEmergencyManagementAgency,463EF07E-38E0-4DD0-903F-4090DBC893BD,2023-05-06T13:19:57-06:00</references>
+    <info>
+        <language>en-CA</language>
+        <category>Fire</category>
+        <event>Wildfire</event>
+        <responseType>Prepare</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Extreme</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>wildFire</value>
+        </eventCode>
+        <effective>2023-05-12T14:55:15-06:00</effective>
+        <expires>2023-05-31T14:53:27-06:00</expires>
+        <senderName>Alberta Emergency Management Agency</senderName>
+        <headline>This is an Alberta Emergency Alert. The Town of Rainbow Lake has issued an
+            Evacuation Order due to Wildfire.</headline>
+        <description>There is a Wildfire on the south side of Rainbow Lake.</description>
+        <instruction>Everyone in Rainbow Lake is under evacuation order. Evacuate to the High Level
+            Arena at 10101 105 Ave. There are beds available there. If you have a camper, there is
+            space to park it. There is a checkstop at the Chateh Road turnoff where you must
+            register. Bring identification. Please be calm, drive safe. There is still time to
+            evacuate safely if you leave now. For updates, www.alberta.ca/emergencyalert and local
+            media.</instruction>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <area>
+            <areaDesc>This alert is in effect for everyone in Rainbow Lake.</areaDesc>
+            <polygon>58.4856,-119.3834 58.4903,-119.3841 58.4909,-119.3665 58.5136,-119.3684
+                58.5129,-119.4380 58.4986,-119.4374 58.4986,-119.4239 58.4847,-119.4237
+                58.4856,-119.3834</polygon>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4817097</value>
+            </geocode>
+        </area>
+    </info>
+    <Signature Id="NAADS Signature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <DigestValue>GMo/w17ouFxeDjE+bG15+eh+NrIt/2cfb/K4O1Mffq4=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            HuS7WGaGNNK/yJaOFBe3R+eaoOa12MjnUpN0+nFpS6dZe8WzjVfQCNTtWfrgDLSqxHkuXfaMs9pX4Lr+BMsn0+fo8K0eTJf/9nfzXjgoINcSQ81ccXtHU07eOxXSoiojAKoVDJ6Z0ry6IiUo/03DK/+C4Ygbc5BNBTRBoTH+ITEeOvkPiBldk1xxcRK7L7nuHGKY1fGol7zokIrHypgAK5qZn9+ou+WD2eLAqlMowkzhHFYyMaATXjoHO6XJU5nH7u4pezTZA9qfLvhErVTZRFTSFpGzeQr/iDSjeG3RvblF1+0qsVN7XBLa6m96d2f3Z6m8vX8ORVX/yflIfbN4YA==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    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</X509Certificate>
+            </X509Data>
+        </KeyInfo>
+        <Object xmlns="">
+            <SignatureProperties>
+                <SignatureProperty Id="NAADS-DSS1" Target="https://dss1.naad-adna.pelmorex.com">
+                    <xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" />
+                </SignatureProperty>
+                <SignatureProperty Id="NAADS-DSS2" Target="https://dss2.naad-adna.pelmorex.com">
+                    <xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" />
+                </SignatureProperty>
+            </SignatureProperties>
+        </Object>
+    </Signature>
+</alert>

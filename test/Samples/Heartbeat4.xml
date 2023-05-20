@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:oasis:names:tc:emergency:cap:1.2 http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd">
+    <identifier>2A30B553B1AE426B8638672B4F146555</identifier>
+    <sender>NAADS-Heartbeat</sender>
+    <sent>2023-05-06T05:54:29-00:00</sent>
+    <status>System</status>
+    <msgType>Alert</msgType>
+    <source>NAADS-1</source>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <references>emalay@AlbertaEmergencyManagementAgency,B224A142-F288-42B8-9E93-135F7059F6B5,2023-05-05T21:27:55-06:00 CentralPeaceRegionalEmergencyManagementAgency,040C4033-D733-4701-A575-B0AAFD7CC6F7,2023-05-05T21:47:52-06:00 AlbertaEmergencyManagementAgency,C80BE42F-144A-49D5-B9EF-5D165F133786,2023-05-05T22:00:35-06:00 emalay@AlbertaEmergencyManagementAgency,E9EAEB35-043E-4B22-BE35-AFE11190F655,2023-05-05T22:15:51-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.1216730155.2023,2023-05-06T04:23:38-00:00 AlbertaEmergencyManagementAgency,49A9EFBB-B55D-48A3-B463-59AF083E7868,2023-05-05T22:26:52-06:00 emalay@AlbertaEmergencyManagementAgency,CEE304F0-151B-4ADD-A47B-9468FE75F457,2023-05-05T22:28:00-06:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3475317629.2023,2023-05-06T04:39:25-00:00 EmergencyManagementBC,F07456CB-DA18-4C56-8EDB-4166F3DDF807,2023-05-05T22:29:16-07:00 StrathconaCounty,2173C8A2-1ED5-4ED4-97F4-1632DF05A528,2023-05-05T23:52:38-06:00</references>
+</alert>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>2173C8A2-1ED5-4ED4-97F4-1632DF05A528</identifier>
+    <sender>StrathconaCounty</sender>
+    <sent>2023-05-05T23:52:38-06:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <references>StrathconaCounty,896E8C15-A48B-49CD-840F-A5ABF6A2169E,2023-05-05T19:52:55-06:00</references>
+    <info>
+        <language>en-CA</language>
+        <category>Fire</category>
+        <event>Wildfire</event>
+        <responseType>Prepare</responseType>
+        <urgency>Immediate</urgency>
+        <severity>Extreme</severity>
+        <certainty>Observed</certainty>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>wildFire</value>
+        </eventCode>
+        <effective>2023-05-05T23:52:38-06:00</effective>
+        <expires>2023-05-06T23:50:30-06:00</expires>
+        <senderName>Strathcona County</senderName>
+        <headline>This is an Alberta Emergency Alert. Strathcona County has an update on its evacuation order.</headline>
+        <description>Although fire conditions have stabilized, it remains volatile and extremely smoky in the area. Crews will remain on scene throughout the night.</description>
+        <instruction>The recent evacuation order remains in place.
+The reception centre is set up at Strathcona County Community Centre in Sherwood Park, at 401 Festival Lane, and will remain open through the night.
+ Watch the Strathcona County website and social media for the most up to date information, and to see a map of the evacuation area. </instruction>
+        <web>http://www.strathcona.ca</web>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>Yes</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Text</valueName>
+            <value>This is an Alberta Emergency Alert. Strathcona County has an update on its evacuation order.
+This evacuation order remains in place for everyone in the area between south of Township Road 540 and north of Township Road 534, and east of Range Road 221 and west of Range Road 215. This includes Pleasant View Estates and Newton Estates. 
+The recent evacuation order remains in place.
+Although fire conditions have stabilized, it remains volatile and extremely smoky in the area. Crews will remain on scene throughout the night.
+The reception centre is set up at Strathcona County Community Centre in Sherwood Park, at 401 Festival Lane, and will remain open through the night.
+ Watch the Strathcona County website and social media for the most up to date information, and to see a map of the evacuation area.</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>Yes</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessText</valueName>
+            <value>This is an Alberta Emergency Alert. Strathcona County has an update on its evacuation order.
+This evacuation order remains in place for everyone in the area between south of Township Road 540 and north of Township Road 534, and east of Range Road 221 and west of Range Road 215. This includes Pleasant View Estates and Newton Estates. 
+The reception centre at Strathcona County Community Centre will remain open through the night.
+ Watch the Strathcona County website and social media for the most up to date information, and to see a map of the evacuation area.</value>
+        </parameter>
+        <resource>
+            <resourceDesc>Broadcast Audio</resourceDesc>
+            <mimeType>audio/mpeg</mimeType>
+            <uri>https://s3.amazonaws.com/naadsttsfs-prod/2173C8A2-1ED5-4ED4-97F4-1632DF05A528-en-CA.mp3?1683352265626</uri>
+            <digest>C5D48A153B440A9A1F0410C50C589F25E533CD7D</digest>
+        </resource>
+        <area>
+            <areaDesc>This evacuation order remains in place for everyone in the area between south of Township Road 540 and north of Township Road 534, and east of Range Road 221 and west of Range Road 215. This includes Pleasant View Estates and Newton Estates. </areaDesc>
+            <polygon>53.3958,-113.3444 53.3667,-113.3442 53.3670,-113.0501 53.3642,-113.0501 53.3657,-113.0443 53.3612,-113.0315 53.3557,-113.0241 53.3545,-113.0243 53.3562,-113.0168 53.3608,-113.0093 53.3612,-113.0023 53.3634,-112.9995 53.3628,-112.9953 53.3648,-112.9941 53.3665,-112.9826 53.3676,-112.9859 53.3686,-112.9847 53.3686,-112.9790 53.3671,-112.9781 53.3670,-112.8408 53.4106,-112.8408 53.4105,-112.8530 53.4605,-112.8527 53.4602,-112.8777 53.4686,-112.8778 53.4687,-112.9024 53.4832,-112.9023 53.4831,-112.9514 53.6285,-112.9510 53.6284,-112.9265 53.6432,-112.9264 53.6432,-112.9022 53.6579,-112.9021 53.6578,-112.8776 53.7160,-112.8773 53.7160,-112.9262 53.7747,-112.9262 53.7746,-112.9513 53.8938,-112.9512 53.8907,-112.9570 53.8896,-112.9669 53.8801,-112.9884 53.8740,-113.0107 53.8666,-113.0599 53.8604,-113.0686 53.8497,-113.0751 53.8359,-113.0808 53.8313,-113.0854 53.8264,-113.0919 53.8241,-113.1051 53.8215,-113.1107 53.8080,-113.1127 53.7906,-113.1261 53.7839,-113.1351 53.7743,-113.1562 53.7744,-113.1244 53.7158,-113.1246 53.7158,-113.1721 53.7011,-113.1721 53.7012,-113.1851 53.6939,-113.1852 53.6939,-113.1965 53.6758,-113.1967 53.6721,-113.2010 53.6718,-113.2702 53.6690,-113.2702 53.6666,-113.2723 53.6628,-113.2785 53.6574,-113.2830 53.6461,-113.2851 53.6427,-113.2873 53.6392,-113.2965 53.6374,-113.3153 53.6346,-113.3214 53.6306,-113.3223 53.6283,-113.3209 53.6214,-113.2997 53.6180,-113.2963 53.6116,-113.2950 53.5704,-113.2950 53.5705,-113.3179 53.5721,-113.3197 53.5694,-113.3631 53.5703,-113.3719 53.5646,-113.3769 53.5549,-113.3792 53.5523,-113.3823 53.5510,-113.3926 53.5567,-113.4023 53.5413,-113.4009 53.5413,-113.3938 53.5171,-113.3937 53.5175,-113.3760 53.5147,-113.3690 53.5171,-113.3690 53.5148,-113.3550 53.5123,-113.3599 53.5145,-113.3531 53.5137,-113.3485 53.5100,-113.3454 53.3958,-113.3444</polygon>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>4811052</value>
+            </geocode>
+        </area>
+    </info>
+    <Signature Id="NAADS Signature"
+        xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <DigestValue>WaozqyOZz28X5p/htpdxPCphVGdAUdcWyiVX/eXBqTQ=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            GoHMsdkjGiu/H++tr2hXG9gMpRyxy9TNgc3VBKjUeiOtVKN+lCveDWobBmy/BIFzpAoaXp/6V2X6EwqWayfhVkltR+9xeWzqyq4ugRFPKnr7pwgz90rinbqqPKpIDHeoDIwdSYfKbt4jeYp6hqkob3TTMRI8MM/MO77/VDSLat0Gr5iIZE99Zw67DoR5tSZUpYaSv1/tR2NMLde18ElMAlKFbIP/g2GWriKzqpC7nM1cxYRCh/YFVZG0sm8VP6gELRYGLGx6RlZyNuRVmqGouKeHD8Fo8AoBbmKkWLM3BkmyM795J9FklvnJZ/TtZRTb8hIJ76/ffeawtC4CbeCjFw==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    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</X509Certificate>
+            </X509Data>
+        </KeyInfo>
+        <Object xmlns="">
+            <SignatureProperties>
+                <SignatureProperty Id="NAADS-DSS1" Target="https://dss1.naad-adna.pelmorex.com">
+                    <xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" />
+                </SignatureProperty>
+                <SignatureProperty Id="NAADS-DSS2" Target="https://dss2.naad-adna.pelmorex.com">
+                    <xc:value xmlns:xc="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2.xsd" />
+                </SignatureProperty>
+            </SignatureProperties>
+        </Object>
+    </Signature>
+    </alert>
